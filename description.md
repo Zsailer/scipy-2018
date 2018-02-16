@@ -17,6 +17,6 @@ In this talk, I will highlight three Python packages that make our steroid recep
 This talk will be directed at both evolutionary biologists and non-biologists. The pipeline will be reproducible from a single Jupyter Notebook. Attendees should leave with the confidence to reconstruct ancient proteins on their own. I also hope that this talk will launch a collaborative effort in evolutionary biology to improve reproducibility in this field.
 
 Software for talk:
-PhyloPandas: www.github.com/Zsailer/phylopandas
-PhyloVega:  www.github.com/Zsailer/phylovega
-Phylogenetics: www.github.com/Zsailer/phylogenetics
+- PhyloPandas: www.github.com/Zsailer/phylopandas
+- PhyloVega:  www.github.com/Zsailer/phylovega
+- Phylogenetics: www.github.com/Zsailer/phylogenetics
