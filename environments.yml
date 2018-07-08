@@ -1,0 +1,22 @@
+name: phylo-env
+channels:
+  - defaults
+  - conda-forge
+  - bioconda
+dependencies:
+  - openmpi=2
+  - phyml
+  - paml
+  - jupyter
+  - jupyterlab
+  - numpy
+  - matplotlib
+  - pandas
+  - pip:
+    - dendropy
+    - biopython
+    - pandas_flavor
+    - phylopandas
+    - pyasr
+    - phylogenetics
+    - phylovega
