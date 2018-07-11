@@ -1,6 +1,4 @@
-# Resurrecting ancient proteins in Python
-
-Zach Sailer
+![sm.inkscape](builds/slide-title.svg)
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -16,11 +14,11 @@ Zach Sailer
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-## Introduce Phylogenetics
+![sm.inkscape](builds/slide-phylogenetics.svg)
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-## Introduce Ancestral sequence reconstruction
+![sm.inkscape](builds/slide-asr.svg)
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
