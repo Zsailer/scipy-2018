@@ -10,6 +10,10 @@
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
+# Warning!
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 ![sm.inkscape](builds/slide-proteins-are-amazing.svg)
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -66,7 +70,7 @@ See notebook
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-## What do we learn from resurrecting SR proteins?
+![sm.inkscape](builds/slide-sr-conclusions.svg)
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -78,4 +82,4 @@ See notebook
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-# Thank you!
+![sm.inkscape](builds/slide-thanks.svg)

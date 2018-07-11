@@ -25,12 +25,10 @@ You can see the full proposal [here](description.md).
 
 ## Install and setup
 
-1. Create new environment from `environment.yml`.
+Create new environment from `environment.yml`.
 
 ## Slides
 
 Slides are hosted as Reveal.js slides [here](https://zsailer.github.io/scipy-2018/slides/index.html#/)
 
 See the [slides]() directory.
-
-## Notebook
