@@ -51,60 +51,75 @@
 			<div class="slides">
 
      <section>
-       <p><img src="slidemachine_media/00000_slide-title_1.png" alt="an image"></p>
+       <p><img src="slidemachine_media/slide-title_1.png" alt="an image"></p>
+     </section>
+     
+     <section data-transition="slide-in none-out">  <p><img src="slidemachine_media/slide-me_1000.png" alt="an image"></p>
+     </section>
+     
+     <section data-transition="none">
+       <p><img src="slidemachine_media/slide-me_1100.png" alt="an image"></p>
+     </section>
+     
+     <section data-transition="none">
+       <p><img src="slidemachine_media/slide-me_1110.png" alt="an image"></p>
+     </section>
+     
+     <section data-transition="none">
+       <p><img src="slidemachine_media/slide-me_1111.png" alt="an image"></p>
      </section>
      
      <section>
-       <h2>Harms Lab introduction</h2>
+       <p><img src="slidemachine_media/slide-acknowledgments_1.png" alt="an image"></p>
      </section>
      
      <section>
-       <p><img src="slidemachine_media/00000_slide-proteins-are-amazing_1.png" alt="an image"></p>
+       <p><img src="slidemachine_media/slide-proteins-are-amazing_1.png" alt="an image"></p>
      </section>
      
-     <section data-transition="slide-in none-out">  <p><img src="slidemachine_media/00000_slide-question_1000.png" alt="an image"></p>
-     </section>
-     
-     <section data-transition="none">
-       <p><img src="slidemachine_media/00000_slide-question_1100.png" alt="an image"></p>
+     <section data-transition="slide-in none-out">  <p><img src="slidemachine_media/slide-question_1000.png" alt="an image"></p>
      </section>
      
      <section data-transition="none">
-       <p><img src="slidemachine_media/00000_slide-question_1110.png" alt="an image"></p>
+       <p><img src="slidemachine_media/slide-question_1100.png" alt="an image"></p>
      </section>
      
      <section data-transition="none">
-       <p><img src="slidemachine_media/00000_slide-question_1111.png" alt="an image"></p>
-     </section>
-     
-     <section data-transition="slide-in none-out">  <p><img src="slidemachine_media/slide-phylogenetics_100.png" alt="an image"></p>
+       <p><img src="slidemachine_media/slide-question_1110.png" alt="an image"></p>
      </section>
      
      <section data-transition="none">
-       <p><img src="slidemachine_media/slide-phylogenetics_110.png" alt="an image"></p>
+       <p><img src="slidemachine_media/slide-question_1111.png" alt="an image"></p>
+     </section>
+     
+     <section data-transition="slide-in none-out">  <p><img src="slidemachine_media/slide-sr-phylo_100.png" alt="an image"></p>
      </section>
      
      <section data-transition="none">
-       <p><img src="slidemachine_media/slide-phylogenetics_111.png" alt="an image"></p>
-     </section>
-     
-     <section data-transition="slide-in none-out">  <p><img src="slidemachine_media/00000_slide-asr_10000.png" alt="an image"></p>
+       <p><img src="slidemachine_media/slide-sr-phylo_110.png" alt="an image"></p>
      </section>
      
      <section data-transition="none">
-       <p><img src="slidemachine_media/00000_slide-asr_11000.png" alt="an image"></p>
+       <p><img src="slidemachine_media/slide-sr-phylo_111.png" alt="an image"></p>
+     </section>
+     
+     <section data-transition="slide-in none-out">  <p><img src="slidemachine_media/slide-asr_10000.png" alt="an image"></p>
      </section>
      
      <section data-transition="none">
-       <p><img src="slidemachine_media/00000_slide-asr_11100.png" alt="an image"></p>
+       <p><img src="slidemachine_media/slide-asr_11000.png" alt="an image"></p>
      </section>
      
      <section data-transition="none">
-       <p><img src="slidemachine_media/00000_slide-asr_11110.png" alt="an image"></p>
+       <p><img src="slidemachine_media/slide-asr_11100.png" alt="an image"></p>
      </section>
      
      <section data-transition="none">
-       <p><img src="slidemachine_media/00000_slide-asr_11111.png" alt="an image"></p>
+       <p><img src="slidemachine_media/slide-asr_11110.png" alt="an image"></p>
+     </section>
+     
+     <section data-transition="none">
+       <p><img src="slidemachine_media/slide-asr_11111.png" alt="an image"></p>
      </section>
      
      <section>
@@ -115,49 +130,97 @@
        <li>Manually edit alignment where software breaks down</li>
        <li>Construct a tree using RaxML, PhyML, etc.</li>
        <li>Resurrect ancestral node sequences.</li>
-       <li>Visualize FigTree</li>
-       </ul>
-       <ul>
-       <li>All software is unaware of other software</li>
+       <li><p>Visualize FigTree</p>
+       </li>
+       <li><p>All software is unaware of other software</p>
+       </li>
        <li>Multiple sequence and tree formats.</li>
        </ul>
      </section>
      
      <section>
-       <h2>Modern software</h2>
+       <h1>Summarize the problems.</h1>
+       <ul>
+       <li>multiple file formats describing the same data</li>
+       <li>stitching together old software that needs compiling</li>
+       <li>outdated interface.</li>
+       <li>Not in Python!</li>
+       </ul>
+     </section>
+     
+     <section>
+       <h2>Modern software to the rescue</h2>
        <ul>
        <li>Bioconda</li>
-       <li>DendroPy</li>
        <li>BioPython</li>
+       <li>DendroPy</li>
        <li>Visualize</li>
        </ul>
+       <p>These tools don't quite get us all the way there.</p>
      </section>
      
      <section>
-       <h2>Proposed software</h2>
-       <p>Familiar, Interactive Frontend</p>
+       <h2>What do I (and maybe you) want?</h2>
        <ul>
-       <li>Phylogenetics -- reproducible tool</li>
-       <li>Phylopandas (Single format)</li>
-       <li>Jupyter Notebooks (Lab) as reproducible frontend</li>
-       <li>Fasta and Tree Viewer as interactive viz</li>
+       <li>Less time spent converting file formats</li>
+       <li>Familiar, interactive frontend for easy exploration</li>
+       <li>Reproducible output.</li>
        </ul>
      </section>
      
      <section>
-       <h1>#</h1>
+       <p><img src="slidemachine_media/slide-phylopandas_1.png" alt="an image"></p>
      </section>
      
      <section>
-       <pre><code class="lang-python">
-       from phylopandas as ph
-       
-       df = ph.read_fasta(&quot;sequences.fasta&quot;)
-       </code></pre>
+       <p>See notebook</p>
+     </section>
+     
+     <section data-transition="slide-in none-out">  <p><img src="slidemachine_media/slide-phylovega_1000.png" alt="an image"></p>
+     </section>
+     
+     <section data-transition="none">
+       <p><img src="slidemachine_media/slide-phylovega_1100.png" alt="an image"></p>
+     </section>
+     
+     <section data-transition="none">
+       <p><img src="slidemachine_media/slide-phylovega_1110.png" alt="an image"></p>
+     </section>
+     
+     <section data-transition="none">
+       <p><img src="slidemachine_media/slide-phylovega_1111.png" alt="an image"></p>
      </section>
      
      <section>
+       <p>See notebook</p>
+     </section>
      
+     <section data-transition="slide-in none-out">  <p><img src="slidemachine_media/slide-phylogenetics_10.png" alt="an image"></p>
+     </section>
+     
+     <section data-transition="none">
+       <p><img src="slidemachine_media/slide-phylogenetics_11.png" alt="an image"></p>
+     </section>
+     
+     <section>
+       <p>See notebook</p>
+     </section>
+     
+     <section>
+       <h2>What do we learn from resurrecting SR proteins?</h2>
+     </section>
+     
+     <section>
+       <h1>Conclusions</h1>
+       <ul>
+       <li>It's time to make Phylogenetics interactive.</li>
+       <li>PhyloPandas can help. Familiar interface (Pandas) and grammar for phylogenetics.</li>
+       <li>We're working on interactive visualization tools powered by Vega.</li>
+       </ul>
+     </section>
+     
+     <section>
+       <h1>Thank you!</h1>
      </section>
      
      

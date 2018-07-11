@@ -2,7 +2,11 @@
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-## Harms Lab introduction
+![sm.inkscape](builds/slide-me.svg)
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+![sm.inkscape](builds/slide-acknowledgments.svg)
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -14,7 +18,7 @@
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-![sm.inkscape](builds/slide-phylogenetics.svg)
+![sm.inkscape](builds/slide-sr-phylo.svg)
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -22,43 +26,56 @@
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-## How ASR is done in real life.
-
-- Manually (or custom script) BLAST to get sequences
-- Align using MSAProbs or alignment software
-- Manually edit alignment where software breaks down
-- Construct a tree using RaxML, PhyML, etc.
-- Resurrect ancestral node sequences.
-- Visualize FigTree
-
-
-- All software is unaware of other software
-- Multiple sequence and tree formats.
+![sm.inkscape](builds/slide-issues.svg)
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-## Modern software
-
-- Bioconda
-- DendroPy
-- BioPython
-- Visualize
+![sm.inkscape](builds/slide-current.svg)
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-## Proposed software
+## What do I (and maybe you) want?
 
-Familiar, Interactive Frontend
-
-- Phylogenetics -- reproducible tool
-- Phylopandas (Single format)
-- Jupyter Notebooks (Lab) as reproducible frontend
-- Fasta and Tree Viewer as interactive viz
+- Less time spent converting file formats
+- Familiar, interactive frontend for easy exploration
+- Reproducible output.
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-# Phylopandas
-
-[see notebook]()
+![sm.inkscape](builds/slide-phylopandas.svg)
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+See notebook
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+![sm.inkscape](builds/slide-phylovega.svg)
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+See notebook
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+![sm.inkscape](builds/slide-phylogenetics.svg)
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+See notebook
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+## What do we learn from resurrecting SR proteins?
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+# Conclusions
+
+- It's time to make Phylogenetics interactive.
+- PhyloPandas can help. Familiar interface (Pandas) and grammar for phylogenetics.
+- We're working on interactive visualization tools powered by Vega.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+# Thank you!
