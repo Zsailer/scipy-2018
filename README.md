@@ -13,8 +13,8 @@ The analyses from this talk can be reproduced from a single Jupyter notebook fou
 
 ## Table of contents
 
-1. [Summary and proposal](#summary)
-1. [Install and setup](#installation-and-setup)
+1. [Summary and proposal](#summary-and-proposal)
+1. [Install and setup](#install-and-setup)
 1. [Slides](#slides)
 
 ## Summary and proposal

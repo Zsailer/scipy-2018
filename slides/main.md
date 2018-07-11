@@ -4,14 +4,15 @@ Zach Sailer
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-
 ## Harms Lab introduction
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-## Proteins evolve.
+![sm.inkscape](builds/slide-proteins-are-amazing.svg)
 
-How do proteins evolve new functions?
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+![sm.inkscape](builds/slide-question.svg)
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
