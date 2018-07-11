@@ -57,17 +57,8 @@ Familiar, Interactive Frontend
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-##
+# Phylopandas
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-```python
-
-from phylopandas as ph
-
-df = ph.read_fasta("sequences.fasta")
-
-```
+[see notebook]()
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
